@@ -1,8 +1,13 @@
-import AboutEvent from "../components/AboutEvent";
-export default function Home() {
+import Navbar from '../components/Navbar';
+import AboutEvent from '../components/AboutEvent';
+
+const Home: React.FC = () => {
   return (
     <div>
-    <AboutEvent/>
+      <Navbar />
+      <AboutEvent />
     </div>
   )
 }
+
+export default Home;
