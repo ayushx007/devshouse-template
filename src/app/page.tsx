@@ -1,10 +1,15 @@
 import Theme from "@/components/Themes";
-import AboutEvent from "../components/AboutEvent";
-export default function Home() {
+import Navbar from '../components/Navbar';
+import AboutEvent from '../components/AboutEvent';
+
+const Home: React.FC = () => {
   return (
     <div>
+      <Navbar />
       <AboutEvent />
-      <Theme />
+      <Theme/>
     </div>
   );
 }
+
+export default Home;
