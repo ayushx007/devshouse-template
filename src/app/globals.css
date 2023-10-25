@@ -5,3 +5,9 @@
 body {
   overflow-x: hidden;
 }
+
+.kl{
+  background: linear-gradient(90deg, #CF8D7C 0%, #A77CB4 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
