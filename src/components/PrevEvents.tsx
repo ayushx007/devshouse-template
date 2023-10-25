@@ -88,7 +88,7 @@ const Cube: FC<CubeProps> = ({ size, image, bgColor, borderColor, style, x=0, y=
 }
 const PrevEvents: FC<PrevEventsProps> = ({ }) => {
     return (
-        <div className='bg-bg-black min-h-full p-24 max-md:p-8'>
+        <div className='bg-bg-black min-h-full p-24 -mt-[12em] max-md:p-8'>
             <div className='heading flex justify-center align-middle pt-10'>
                 <h1 className='text-[6em] font-bold text-heading-grey opacity-10 max-md:text-5xl'>GLIMPSES</h1>
                 <h1 className='text-[3em] font-medium text-white absolute z-20 pt-10 max-md:text-2xl max-md:pt-3'>Previous Events</h1>
