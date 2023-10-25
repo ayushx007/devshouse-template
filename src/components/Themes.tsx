@@ -52,7 +52,7 @@ const Theme = () => {
       {deptDesc[hoverItem]}
       <div
         style={{ backgroundImage: `url('/images/blend(${hoverItem}).png')` }}
-        className={`flex justify-evenly items-center flex-wrap bg-[url('/images/blend(${hoverItem}).png')] bg-no-repeat h-[490px] `}
+        className={`flex justify-evenly items-center flex-wrap bg-[url('/images/blend(${hoverItem}).png')] bg-no-repeat h-[490px] bg-cover`}
       >
         <div
           onMouseEnter={() => {
