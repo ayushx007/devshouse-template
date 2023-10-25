@@ -1,12 +1,9 @@
-
-
-
 import React from 'react';
 import Image from 'next/image';
 
 const AboutGDSC = () => {
   return (
-    <div className="w-full h-auto flex flex-col justify-center items-center mt-10 py-10">
+    <div className="w-full h-auto flex flex-col justify-center items-center mt-10 py-10 -mb-96">
       <div className="flex flex-col sm:flex-row items-center">
         <div className="mb-4 md:mb-0 md:mr-4">
           <Image
@@ -48,7 +45,7 @@ const AboutGDSC = () => {
 
       <Image src="/Pasted Graphic 7.png" alt="" height={418.21} width={668.3} />
 
-      <div className="w-full h-[348px] bg-[#242425] rounded-[50%] relative bottom-[158px] -z-10"></div>
+      <div className="w-[110%] h-[348px] bg-[#242425] rounded-[50%] relative bottom-[158px] -z-10"></div>
     </div>
   );
 };
