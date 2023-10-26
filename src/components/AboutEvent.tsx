@@ -5,22 +5,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const AboutEvent = () => {
 	return (
-		<div className="mx-6 sm:mx-10 md:mx-16">
-			<div className="flex my-4 gap-2">
-				<GiHamburgerMenu color="black" size="25" />
-				<p className="font-semibold">Bard</p>
-				<p className="rounded-md border-2 border-[#5392F6] text-xs py-0.5 px-2 text-[#5392F6]">
-					Experiment
-				</p>
-			</div>
-			<div className="bg-[#F3F6FC] px-4 sm:px-6 md:px-8 py-2 rounded-lg">
-				<img
-					src="https://www.gstatic.com/lamda/images/sparkle_resting_v2_darkmode_2bdb7df2724e450073ede.gif
-
-"
-					alt="bard Gif"
-					className="h-6"
-				/>
+		<div className="mx-6 sm:mx-10 md:mx-16 my-20">
+			<div className="bg-[#F3F6FC] px-4 sm:px-6 md:px-8 py-10 rounded-lg">
 				<p className="font-bold text-xl sm:text-2xl ">
 					Hello again! DevMania ‘24
 				</p>
@@ -75,17 +61,7 @@ const AboutEvent = () => {
 						</p>
 					</div>
 				</div>
-				<div className="py-2 flex mb-2 gap-1">
-					<div className="h-10 w-full bg-white text-sm py-2 px-1 sm:px-4 rounded-full sm:mx-6 text-neutral-500 border-2 border-black flex justify-between gap-1">
-						<p className="ml-4 overflow-hidden">
-							Why is DevMania the go-to hackathon event?
-						</p>
-						<BiSolidMicrophone size="20" />
-					</div>
-					<div className="flex items-center ">
-						<MdSend color="black" size="25" />
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	);
