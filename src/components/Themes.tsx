@@ -6,34 +6,34 @@ import { useState } from "react";
 const Theme = () => {
   const [hoverItem, sethoverItem] = useState(0);
   const deptDesc = [
-    <div key="1" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="1" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
       Embark on a journey where the{" "}
-      <span className="text-white text-2xl max-md:text-base font-extrabold font-['Inter']">
+      <span className="text-white text-2xl max-md:text-base font-extrabold">
         boundaries
       </span>{" "}
       of possibility are pushed to new horizons.
     </div>,
-    <div key="2" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="2" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
       Uncover hidden insights in data to shape a smarter tomorrow through
       <span className="text-yellow-500"> analysis</span> and{" "}
       <span className="text-yellow-500">modeling.</span>
     </div>,
-    <div key="3" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="3" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
       Reinvent <span className="text-blue-500">trust</span> and{" "}
       <span className="text-blue-500"> transparency </span>with decentralized
       technology solutions for a more secure future.
     </div>,
-    <div key="4" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="4" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
       Create immersive, user-centered experiences that blendand
       <span className="text-red-500"> form </span> and
       <span className="text-red-500"> function.</span>
     </div>,
-    <div key="5" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="5" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
       Empower change by coding the{" "}
       <span className="text-green-500"> power </span> of transformation to{" "}
       <span className="text-green-500"> streamline </span> processes.
     </div>,
-    <div key="6" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="6" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
       Fuel<span className="text-purple-600"> creative </span> thinking and
       <span className="text-purple-600"> collaboration </span>to develop
       groundbreaking ideas to drive industry evolution.
@@ -41,12 +41,12 @@ const Theme = () => {
   ];
 
   return (
-    <div className="bg-[#242425] w-screen">
+    <div className="bg-[#242425] w-screen py-24">
       <div className="flex justify-center items-center">
-        <div className="absolute text-white text-[3em] max-md:text-2xl font-medium font-['Inter']">
+        <div className="absolute text-white text-[3em] max-md:text-2xl font-medium">
           Themes
         </div>
-        <div className="opacity-10 text-neutral-200 text-[6em] font-extrabold font-['Inter'] max-md:text-5xl">
+        <div className="opacity-10 text-neutral-200 text-[6em] font-extrabold max-md:text-5xl">
           TRACKS
         </div>
       </div>

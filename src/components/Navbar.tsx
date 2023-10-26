@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
             <a className="text-gray-600 hover:text-gray-400">Contacts</a>
           </Link>
         </div>
-        <Image src="/images/MLH icon.png" alt="MLH-trust-badge" width={100} height={50} objectFit="cover" objectPosition="top right" className="hidden lg:block lg:absolute lg:top-0 lg:right-10 lg:h-full" />
+        <Image src="/images/MLH icon.png" alt="MLH-trust-badge" width={100} height={100}className='w-20 md:w-28 fixed top-0 right-5 z-[100]' />
 
         {/* Hamburger Icon */}
         <div className="md:hidden">

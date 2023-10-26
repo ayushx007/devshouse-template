@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="flex h-[100vh] flex-col items-center justify-center gap-4 bg-[url('../../public/images/background.png')] bg-cover bg-no-repeat bg-center">
+    <div className="flex h-[100vh] flex-col items-center justify-center gap-4 bg-[url('/images/background.png')] bg-cover bg-no-repeat bg-center">
       <Image src={devManiaLogo} alt="devManiaLogo" className="px-12 md:p-0"></Image>
       <div className="flex flex-row gap-8">
         <span className="flex flex-row items-center gap-2 ">
