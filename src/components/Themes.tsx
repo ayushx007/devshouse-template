@@ -8,7 +8,7 @@ const Theme = () => {
   const deptDesc = [
     <div key="1" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
       Embark on a journey where the{" "}
-      <span className="text-white text-2xl font-extrabold font-['Inter']">
+      <span className="text-white text-2xl max-md:text-base font-extrabold font-['Inter']">
         boundaries
       </span>{" "}
       of possibility are pushed to new horizons.
@@ -43,10 +43,10 @@ const Theme = () => {
   return (
     <div className="bg-[#242425] w-screen">
       <div className="flex justify-center items-center">
-        <div className="absolute text-white text-[64px] font-medium font-['Inter']">
+        <div className="absolute text-white text-[3em] max-md:text-2xl font-medium font-['Inter']">
           Themes
         </div>
-        <div className="opacity-10 text-neutral-200 md:text-[120px] font-extrabold font-['Inter'] text-[90px]">
+        <div className="opacity-10 text-neutral-200 text-[6em] font-extrabold font-['Inter'] max-md:text-5xl">
           TRACKS
         </div>
       </div>
@@ -62,7 +62,7 @@ const Theme = () => {
           onMouseLeave={() => {
             sethoverItem(0);
           }}
-          className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px] 
+          className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px]
           border-2 border-white text-center text-white mx-3 hover:border-black hover:text-black hover:bg-white"
         >
           <p>Data Science</p>
