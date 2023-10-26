@@ -8,10 +8,10 @@ const AboutEvent = () => {
 		<div className="mx-6 sm:mx-10 md:mx-16 my-20">
 			<div className="bg-[#F3F6FC] px-4 sm:px-6 md:px-8 py-10 rounded-lg">
 				<p className="font-bold text-xl sm:text-2xl ">
-					Hello again! DevMania ‘24
+					Hello again! DevsHouse ‘24
 				</p>
 				<p className="p-2 sm:p-4 text-neutral-500 text-sm font-medium">
-					DevMania Hackathon by GDSC VIT Chennai, an annual tech innovation
+					DevsHouse Hackathon by GDSC VIT Chennai, an annual tech innovation
 					event, calls upcoming engineers, designers, and entrepreneurs from
 					across the country to explore new ideas for the future. It offers
 					students the opportunity to create, connect, and showcase their

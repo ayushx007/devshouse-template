@@ -1,5 +1,6 @@
 "use client"
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -11,12 +12,12 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-white shadow-lg">
+    <nav className="bg-white shadow-lg px-6 sm:px-10 md:px-16">
       <div className="container mx-auto p-4 flex justify-between items-center md:px-0">
 
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/assets/gdsc-logo.png" alt="GDSC Logo" className="lg:w-14 lg:h-10 md:mr-2 md:w-10" />
+          <Image src="/assets/gdsc-logo.png" width={100} height={100} alt="GDSC Logo" className="lg:w-14 lg:h-10 md:mr-2 md:w-10" />
           <div className="ml-2 text-gray-600 md:text-lg">
             <p className="font-medium lg:text-lg md:text-xs">Google Developer Student Clubs</p>
             <p className="text-xs">Vellore Institute of Technology, Chennai</p>
