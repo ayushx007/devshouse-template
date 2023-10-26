@@ -7,6 +7,7 @@ import AboutGDSC from '@/components/AboutGDSC';
 import AboutVit from '@/components/AboutVIT';
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import FAQ from "@/components/FAQ";
 
 const Home: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const Home: React.FC = () => {
       <AboutGDSC/>
       <PrevEvents/>
       <Theme/>
+      <FAQ/>
       <Footer/>
     </div>
   );
