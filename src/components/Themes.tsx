@@ -1,38 +1,39 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 const Theme = () => {
   const [hoverItem, sethoverItem] = useState(0);
   const deptDesc = [
-    <div className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="1" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
       Embark on a journey where the{" "}
       <span className="text-white text-2xl font-extrabold font-['Inter']">
         boundaries
       </span>{" "}
       of possibility are pushed to new horizons.
     </div>,
-    <div className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="2" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
       Uncover hidden insights in data to shape a smarter tomorrow through
       <span className="text-yellow-500"> analysis</span> and{" "}
       <span className="text-yellow-500">modeling.</span>
     </div>,
-    <div className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="3" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
       Reinvent <span className="text-blue-500">trust</span> and{" "}
       <span className="text-blue-500"> transparency </span>with decentralized
       technology solutions for a more secure future.
     </div>,
-    <div className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="4" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
       Create immersive, user-centered experiences that blendand
       <span className="text-red-500"> form </span> and
       <span className="text-red-500"> function.</span>
     </div>,
-    <div className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="5" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
       Empower change by coding the{" "}
       <span className="text-green-500"> power </span> of transformation to{" "}
       <span className="text-green-500"> streamline </span> processes.
     </div>,
-    <div className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
+    <div key="6" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal font-['Inter'] italic">
       Fuel<span className="text-purple-600"> creative </span> thinking and
       <span className="text-purple-600"> collaboration </span>to develop
       groundbreaking ideas to drive industry evolution.
@@ -65,7 +66,10 @@ const Theme = () => {
           border-2 border-white text-center text-white mx-3 hover:border-black hover:text-black hover:bg-white"
         >
           <p>Data Science</p>
-          <img
+          <Image
+            width={40}
+            height={40}
+            alt='Data Science Icon'
             src="/images/datascience icon.png"
             className="absolute top-[40px] left-[-16px]"
           />
@@ -81,7 +85,10 @@ const Theme = () => {
            border-2 border-white text-center text-white mx-3  hover:border-black hover:text-black hover:bg-white"
         >
           <p>Blockchain</p>
-          <img
+          <Image
+            width={40}
+            height={40}
+            alt= 'Blockchain Icon'
             src="/images/blockchain icon.png"
             className="absolute top-[40px] left-[-16px]"
           />
@@ -97,7 +104,10 @@ const Theme = () => {
            border-2 border-white text-center text-white mx-3  hover:border-black hover:text-black hover:bg-white"
         >
           <p>UX Design</p>
-          <img
+          <Image
+            width={40}
+            height={40} 
+            alt= 'UX Design Icon'
             src="/images/ux design icon.png"
             className="absolute top-[25px] left-[-18px]"
           />
@@ -113,7 +123,10 @@ const Theme = () => {
            border-2 border-white text-center text-white mx-3  hover:border-black hover:text-black hover:bg-white"
         >
           <p>Development</p>
-          <img
+          <Image
+            width={40}
+            height={40}
+            alt= 'Development Icon'
             src="/images/development icon.png"
             className="absolute top-[40px] left-[-16px]"
           />
@@ -129,7 +142,10 @@ const Theme = () => {
           hover:border-black hover:text-black hover:bg-white border-2 border-white text-center text-white mx-3"
         >
           <p>Open Innovation</p>
-          <img
+          <Image
+            width={40}
+            height={40}
+            alt= 'Open Innovation Icon'
             src="/images/open innovation icon.png"
             className="absolute top-[35px] left-[-16px]"
           />
