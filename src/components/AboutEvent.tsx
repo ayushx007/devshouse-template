@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const AboutEvent = () => {
 	return (
-		<div className="mx-6 sm:mx-10 md:mx-16 my-20">
+		<div id='about' className="mx-6 sm:mx-10 md:mx-16 my-20">
 			<div className="bg-[#F3F6FC] px-4 sm:px-6 md:px-8 py-10 rounded-lg">
 				<p className="font-bold text-xl sm:text-2xl ">
 					Hello again! DevsHouse ‘24

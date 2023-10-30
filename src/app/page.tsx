@@ -11,7 +11,7 @@ import FAQ from "@/components/FAQ";
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <Hero />
       <AboutEvent />
@@ -21,7 +21,7 @@ const Home: React.FC = () => {
       <Theme/>
       <FAQ/>
       <Footer/>
-    </div>
+    </>
   );
 };
 

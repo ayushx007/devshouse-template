@@ -41,7 +41,7 @@ const Theme = () => {
   ];
 
   return (
-    <div className="bg-[#242425] w-screen py-24">
+    <div id='theme' className="bg-[#242425] w-screen py-24">
       <div className="flex justify-center items-center">
         <div className="absolute text-white text-[3em] max-md:text-2xl font-medium">
           Themes
@@ -51,6 +51,11 @@ const Theme = () => {
         </div>
       </div>
       {deptDesc[hoverItem]}
+      <div className="bg-[url('/images/blend(1).png" />
+      <div className="bg-[url('/images/blend(2).png" />
+      <div className="bg-[url('/images/blend(3).png" />
+      <div className="bg-[url('/images/blend(4).png" />
+      <div className="bg-[url('/images/blend(5).png" />
       <div
         style={{ backgroundImage: `url('/images/blend(${hoverItem}).png')` }}
         className={`flex justify-evenly items-center flex-wrap bg-[url('/images/blend(${hoverItem}).png')] bg-no-repeat h-[490px] bg-cover`}

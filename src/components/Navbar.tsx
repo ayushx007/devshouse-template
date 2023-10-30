@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-white shadow-lg px-6 sm:px-10 md:px-16">
+    <nav className="-mt-10 fixed z-[1000] w-full bg-white shadow-lg px-6 sm:px-10 md:px-16">
       <div className="container mx-auto p-4 flex justify-between items-center md:px-0">
 
         {/* Logo */}
@@ -26,30 +26,30 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Nav Links */}
         <div className="hidden lg:space-x-10 lg:mr-20 md:flex space-x-4 lg:relative lg:right-10">
-          <Link href="/" legacyBehavior>
-            <a className="text-gray-600 hover:text-gray-400">Home</a>
+          <Link href="#" className="text-gray-600 hover:text-gray-400">
+            Home
           </Link>
-          <Link href="/about" legacyBehavior>
-            <a className="text-gray-600 hover:text-gray-400">About</a>
+          <Link href="#about" className="text-gray-600 hover:text-gray-400">
+            About
           </Link>
-          <Link href="/theme" legacyBehavior>
-            <a className="text-gray-600 hover:text-gray-400">Themes</a>
+          <Link href="#theme" className="text-gray-600 hover:text-gray-400">
+            Themes
           </Link>
-          <Link href="/sponsors" legacyBehavior>
-            <a className="text-gray-600 hover:text-gray-400">Sponsors</a>
+          <Link href="#sponsors" className="text-gray-600 hover:text-gray-400">
+            Sponsors
           </Link>
-          <Link href="/faqs" legacyBehavior>
-            <a className="text-gray-600 hover:text-gray-400">FAQs</a>
+          <Link href="#faqs" className="text-gray-600 hover:text-gray-400">
+            FAQs
           </Link>
-          <Link href="/contests" legacyBehavior>
-            <a className="text-gray-600 hover:text-gray-400">Contacts</a>
+          <Link href="#contacts" className="text-gray-600 hover:text-gray-400">
+            Contacts
           </Link>
         </div>
-        <Image src="/images/MLH icon.png" alt="MLH-trust-badge" width={100} height={100}className='w-20 md:w-28 fixed top-0 right-5 z-[100]' />
+        {/* <Image src="/images/MLH icon.png" alt="MLH-trust-badge" width={100} height={100}className='w-20 md:w-28 fixed top-0 right-5 z-[100]' /> */}
 
         {/* Hamburger Icon */}
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-gray-600 hover:text-gray-400">
+          <button onClick={toggleMenu}>
             ☰
           </button>
         </div>

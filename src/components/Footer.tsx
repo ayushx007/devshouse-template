@@ -9,7 +9,7 @@ import { RiThreadsFill, RiTwitterXFill } from 'react-icons/ri';
 const Footer = () => {
     return (
         <IconContext.Provider value={{ color: "white", size: '25px' }}>
-            <div className="flex flex-col md:flex-row justify-evenly items-center bg-[#242425] py-12 md:px-16" id="contacts">
+            <div className="flex flex-col lg:flex-row justify-evenly items-center bg-[#242425] py-24 md:px-16" id="contacts">
                 <div className="flex flex-col md:w-1/2 mb-10" data-aos="fade-right" data-aos-delay="600">
                     <div className=" px-8">
                         <h1 className="font-sans text-4xl text-white mb-10 text-center md:text-left">Reach out to Us!</h1>
@@ -48,7 +48,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="w-full md:w-1/2 md:pl-8">
-                    <Image src="/Pasted Graphic 7.png" layout="responsive" height={100} width={100} alt="footer" />
+                    <Image src="/Pasted Graphic 7.png" className='w-full h-full' height={400} width={400} alt="footer" />
                 </div>
             </div>
         </IconContext.Provider>

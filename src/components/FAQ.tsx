@@ -17,7 +17,7 @@ const FAQ = () => {
     </Accordion.Item>
   ));
   return (
-    <div className="flex justify-center items-center bg-bg-black pt-10">
+    <div id="faqs" className="flex justify-center items-center bg-bg-black pt-10">
       <div className="bg-bg-black w-[80%] h-auto">
         <h1 className="text-5xl font-Inter-500 text-white text-center mb-10">FAQs</h1>
         <div className="border border-[#393b41]">

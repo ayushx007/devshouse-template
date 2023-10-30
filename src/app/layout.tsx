@@ -25,6 +25,10 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="apple-touch-icon" href="/assets/gdsc-logo.png" /> 
         <meta rel="og:image" content="/gdsc.svg" />
+        <meta property="og:title" content="DevsHouse" />
+        <meta property="og:description" content="A community of developers" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://devshouse.vercel.app" />
       </head>
       <body className={inter.className}>
 
