@@ -18,13 +18,13 @@ export default function Hero() {
         <Image src={HeroImage1} alt="devManiaLogo"></Image>
       </div>
       <div className="absolute left-2 top-0">
-        <Image src={HeroImage2} width={430} alt="devManiaLogo"></Image>
+        <Image src={HeroImage2} width={400} alt="devManiaLogo"></Image>
       </div>
       <div className="absolute -left-10 -bottom-10">
-        <Image src={HeroImage3} width={430} alt="devManiaLogo"></Image>
+        <Image src={HeroImage3} width={400} alt="devManiaLogo"></Image>
       </div>
       <div className="absolute -right-8 -bottom-10">
-        <Image src={HeroImage4} width={430} alt="devManiaLogo"></Image>
+        <Image src={HeroImage4} width={400} alt="devManiaLogo"></Image>
       </div>
       <div className="absolute">
         <Image
