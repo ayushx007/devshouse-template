@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-.kl{
-  background: linear-gradient(90deg, #CF8D7C 0%, #A77CB4 100%);
+.kl {
+  background: linear-gradient(90deg, #cf8d7c 0%, #a77cb4 100%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
