@@ -21,13 +21,13 @@ const Navbar: React.FC = () => {
             width={100}
             height={100}
             alt="GDSC Logo"
-            className="lg:w-14 lg:h-10 md:mr-2 md:w-10"
+            className="lg:w-14 lg:h-10 md:mr-2 md:w-10 w-10"
           />
           <div className="ml-2 text-gray-600 md:text-lg">
-            <p className="font-medium lg:text-lg md:text-xs">
-              Google Developer Student Clubs
+            <p className="font-medium text-sm lg:text-lg md:text-xs">
+              Google Developer Student Club
             </p>
-            <p className="text-xs">Vellore Institute of Technology, Chennai</p>
+            <p className="text-xs">VIT, Chennai</p>
           </div>
         </div>
 

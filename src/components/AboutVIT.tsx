@@ -8,7 +8,7 @@ const AboutVit = () => {
 
 			<div className="bg-[#F3F6FC] px-4 sm:px-6 md:px-8 py-10 rounded-lg">
 				<p className="font-bold text-xl sm:text-2xl ">
-					Hello again! Vellore Institute of Technology, Chennai
+					Vellore Institute of Technology, Chennai
 				</p>
 				<p className="p-2 sm:p-4 text-neutral-500 text-sm font-medium">
 					Vellore Institute of Technology, founded in 1984 is one of the leading engineering colleges in India. It aims to provide a world-class education that not only polishes technical mastery and analytical skills but also imbibes strong ethical values in their students.
