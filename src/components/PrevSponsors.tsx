@@ -47,7 +47,7 @@ export default function PrevSponsors() {
           mousewheel={true}
           pagination={true}
           modules={[Navigation, Pagination]}
-          className="mySwiper w-3/4"
+          className="mySwiper md:w-3/4"
         >
           {images.map((e, i) => {
             return (
