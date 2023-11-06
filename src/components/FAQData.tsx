@@ -1,17 +1,17 @@
 const FAQData = [
     {
       key: 1,
-      question: 'What is DevJams?',
+      question: 'What is DevsHouse?',
       answer:
-        'DevJams is an annual 36-hour long hackathon, that aims to bring together great developers and designers under one roof and pitting them against each other in a healthy competition. Under focused mentorship from a dedicated and experienced technical team, and an equally challenging and innovative panel of themes, participants can test their skills and use them to build projects to solve real-world problems.',
+        'DevsHouse is an annual 36-hour long hackathon, that aims to bring together great developers and designers under one roof and pitting them against each other in a healthy competition. Under focused mentorship from a dedicated and experienced technical team, and an equally challenging and innovative panel of themes, participants can test their skills and use them to build projects to solve real-world problems.',
       color: 'yellow'
     },
     {
       key: 2,
-      question: 'Where can I register for DevJams?',
+      question: 'Where can I register for DevsHouse?',
       answer: (
         <>
-          You can now register for DevJams at &nbsp;
+          You can now register for DevsHouse at &nbsp;
           <a
             href='https://events.vit.ac.in/events/gravitas2022se/'
             target='_blank'
@@ -23,16 +23,16 @@ const FAQData = [
           <br />
           Once you receive a confirmation email, head over to &nbsp;
           <a
-            href='https://devjams.hackerearth.com/'
+            href='https://DevsHouse.hackerearth.com/'
             target='_blank'
             rel='noreferrer'
           >
-            <u>Devjams Hackerearth</u>
+            <u>DevsHouse Hackerearth</u>
           </a>
           &nbsp; and form your teams and submit ideas before the due date.
           <br />
           <br />
-          Make sure you’ve registered for DevJams at &nbsp;
+          Make sure you’ve registered for DevsHouse at &nbsp;
           <a
             href='https://events.vit.ac.in/events/gravitas2022se/'
             target='_blank'
@@ -42,11 +42,11 @@ const FAQData = [
           </a>
           &nbsp; even if you’ve already registered through &nbsp;
           <a
-            href='https://devjams.hackerearth.com/'
+            href='https://DevsHouse.hackerearth.com/'
             target='_blank'
             rel='noreferrer'
           >
-            <u>Devjams Hackerearth</u>
+            <u>DevsHouse Hackerearth</u>
           </a>
         </>
       ),
@@ -57,7 +57,7 @@ const FAQData = [
       question:
         'Do I need to pay for any of the events that I register under GDSC-VIT?',
       answer:
-        'Like all our other events, Hexathon and DevJams, both are free-of-cost and you don’t need to pay anything to register for it. We plan to keep all of our future events free too.',
+        'Like all our other events, Hexathon and DevsHouse, both are free-of-cost and you don’t need to pay anything to register for it. We plan to keep all of our future events free too.',
       color: 'red'
     },
     {
@@ -116,7 +116,7 @@ const FAQData = [
       question:
         'If it is a team submission , does that mean all team members will have access to work at the same time?',
       answer:
-        'Yes, all team members can log in from their account and submit their project on the DevJams portal.',
+        'Yes, all team members can log in from their account and submit their project on the DevsHouse portal.',
       color: 'red'
     },
     {

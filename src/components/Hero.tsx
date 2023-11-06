@@ -40,11 +40,12 @@ export default function Hero() {
         className="px-12 md:p-0 z-50"
       ></Image>
       <div className="flex flex-col gap-4 z-50 items-center">
-        <span className="flex flex-row items-center gap-2 ">
-          <p className="font-Inter-800 text-md sm:text-2xl">March 15th - 17th, 2024</p>
-        </span>
-        <span className="flex flex-row items-center gap-2">
-          <p className="font-Inter-800 text-md sm:text-2xl">VIT, Chennai</p>
+      <span className="flex flex-row items-center gap-2 underline">
+            <Link href={'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240315T013000Z%2F20240317T133000Z&details=&location=VIT%20Chennai&text=DevsHouse'} className="font-Inter-800 text-md sm:text-2xl">March 15th - 17th, 2024</Link>
+          </span>
+
+        <span className="flex flex-row items-center gap-2 underline">
+          <Link href={'https://maps.app.goo.gl/CPiU5WWe2WAAR6peA'} className="font-Inter-800 text-md sm:text-2xl">VIT, Chennai</Link>
         </span>
       </div>
       <span className="bg-blue-500 rounded-md font-bold text-2xl px-4 py-3 text-white hover:scale-110 transition-transform ease-out z-50">
