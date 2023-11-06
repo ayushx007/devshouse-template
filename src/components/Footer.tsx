@@ -44,7 +44,9 @@ const Footer = () => {
                       <AiOutlineMail />
                     </Link>
                     <span className="flex flex-row gap-2">
+                    <Link className="text-sm sm:text-md hover:text-blue-500" href={`tel:${e.mobileNo.replace(/[^+0-9]/g, '')}`}>
                       <AiOutlinePhone />
+                      </Link>
                       <h3 className="font-normal text-base text-white">{e.mobileNo}</h3>
                     </span>
                   </div>
