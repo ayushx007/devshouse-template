@@ -11,6 +11,8 @@ import HeroImage5 from "../../public/gifs/5.gif";
 import Image from "next/image";
 import Link from "next/link";
 
+import { HiOutlineIdentification, HiOutlineSpeakerphone } from "react-icons/hi";
+
 export default function Hero() {
   return (
     <div className="flex mt-10 h-[90vh] flex-col items-center justify-center gap-4 bg-white bg-cover bg-no-repeat bg-center">
@@ -48,9 +50,16 @@ export default function Hero() {
           </Link>
         </span>
       </div>
-      <span className="bg-blue-500 rounded-md font-bold text-2xl px-4 py-3 text-white hover:scale-110 transition-transform ease-out z-50">
-        <Link href="/">Register Now! </Link>
-      </span>
+      <div className="flex flex-row gap-4">
+        <span className="flex items-center gap-2 bg-blue-500 rounded-md font-bold text-2xl px-4 py-3 text-white hover:scale-110 transition-transform ease-out z-50">
+          <HiOutlineIdentification />
+          <Link href="https://discord.gg/m2zfNC7M">Pre-Register Now! </Link>
+        </span>
+        <span className="flex items-center gap-2 bg-blue-500 rounded-md font-bold text-2xl px-4 py-3 text-white hover:scale-110 transition-transform ease-out z-50">
+          <HiOutlineSpeakerphone />
+          <Link href="https://gdsc.community.dev/vellore-institute-of-technology-vit-chennai/">Join our Community</Link>
+        </span>
+      </div>
     </div>
   );
 }
