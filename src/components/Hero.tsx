@@ -35,6 +35,7 @@ export default function Hero() {
       <div className="flex flex-col gap-4 z-50 items-center">
         <span className="flex flex-row items-center gap-2 underline">
           <Link
+          
             href={
               "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240315T013000Z%2F20240317T133000Z&details=&location=VIT%20Chennai&text=DevsHouse"
             }
@@ -45,21 +46,22 @@ export default function Hero() {
         </span>
 
         <span className="flex flex-row items-center gap-2 underline">
-          <Link href={"https://maps.app.goo.gl/CPiU5WWe2WAAR6peA"} className="font-Inter-800 text-md sm:text-2xl">
+          <Link target="_blank" href={"https://maps.app.goo.gl/CPiU5WWe2WAAR6peA"} className="font-Inter-800 text-md sm:text-2xl">
             VIT, Chennai
           </Link>
         </span>
       </div>
-      <div className="flex flex-row gap-4">
-        <span className="flex items-center gap-2 bg-blue-500 rounded-md font-bold text-2xl px-4 py-3 text-white hover:scale-110 transition-transform ease-out z-50">
-          <HiOutlineIdentification />
-          <Link href="">Pre-Register Now! </Link>
-        </span>
-        <span className="flex items-center gap-2 bg-blue-500 rounded-md font-bold text-2xl px-4 py-3 text-white hover:scale-110 transition-transform ease-out z-50">
-          <HiOutlineSpeakerphone />
-          <Link href="https://discord.gg/m2zfNC7M">Join our Community</Link>
-        </span>
-      </div>
+      <div className="flex flex-col md:flex-row gap-4">
+ <span className="flex items-center gap-2 bg-blue-500 rounded-md font-bold text-sm md:text-xl px-2 md:px-4 py-2 md:py-3 text-white hover:scale-110 transition-transform ease-out z-50">
+   <HiOutlineIdentification />
+   <Link target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSclB-TIlwOIyKJHitziq0OXIwv5nPijspyNBFT1oQYfWYrs-Q/viewform?vc=0&c=0&w=1&flr=0">Pre-Register Now! </Link>
+ </span>
+ <span className="flex items-center gap-2 bg-blue-500 rounded-md font-bold text-sm md:text-xl px-2 md:px-4 py-2 md:py-3 text-white hover:scale-110 transition-transform ease-out z-50">
+   <HiOutlineSpeakerphone />
+   <Link target="_blank" href="https://discord.gg/m2zfNC7M">Join our Community</Link>
+ </span>
+</div>
+
     </div>
   );
 }
