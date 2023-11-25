@@ -65,7 +65,7 @@ const Footer = () => {
               <Link href="mailto:gdsc.vitc@gmail.com" target="_blank" rel="noreferrer">
                 <AiOutlineMail />
               </Link>
-              <Link href="https://discord.gg/ACW93GrK" target="_blank" rel="noreferrer">
+              <Link href="https://discord.gg/UFfPjTtzh7" target="_blank" rel="noreferrer">
                 <BsDiscord />
               </Link>
               <Link href="https://twitter.com/gdscvitc" target="_blank" rel="noreferrer">
