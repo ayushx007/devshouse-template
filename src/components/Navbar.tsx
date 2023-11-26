@@ -68,27 +68,27 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link href="/about" legacyBehavior>
+              <Link href="#about" legacyBehavior>
                 <a className="text-gray-600 hover:text-gray-300">About</a>
               </Link>
             </li>
             <li>
-              <Link href="/theme" legacyBehavior>
+              <Link href="#theme" legacyBehavior>
                 <a className="text-gray-600 hover:text-gray-300">Themes</a>
               </Link>
             </li>
             <li>
-              <Link href="/sponsors" legacyBehavior>
+              <Link href="#sponsors" legacyBehavior>
                 <a className="text-gray-600 hover:text-gray-300">Sponsors</a>
               </Link>
             </li>
             <li>
-              <Link href="/faqs" legacyBehavior>
+              <Link href="#faqs" legacyBehavior>
                 <a className="text-gray-600 hover:text-gray-300">FAQs</a>
               </Link>
             </li>
             <li>
-              <Link href="/contests" legacyBehavior>
+              <Link href="#contests" legacyBehavior>
                 <a className="text-gray-600 hover:text-gray-300">Contacts</a>
               </Link>
             </li>
