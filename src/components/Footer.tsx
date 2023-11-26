@@ -53,6 +53,9 @@ const Footer = () => {
                 </div>
               );
             })}
+            <Link target="_blank" className="text-white font-bold text-xl underline" href="https://docs.google.com/forms/d/e/1FAIpQLSeYTeeWWnH_OV3X3vp__Sq6xLHw6eOpHPXQSj9aRhPrE4CH_g/viewform?usp=sf_link">
+              Interested in sponsoring us? Click here!
+            </Link>
           </div>
           <div className="w-full px-8 ">
             <div className="grid grid-rows-2 grid-cols-3 md:flex md:grid-cols-6  justify-center md:justify-start gap-14 pt-8">
