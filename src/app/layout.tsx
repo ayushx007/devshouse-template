@@ -21,17 +21,17 @@ export default function RootLayout({
         <meta name="theme-color" content="#000000" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="apple-touch-icon" href="/assets/gdsc-logo.png" /> 
-        <meta rel="og:image" content="/gdsc.svg" />
+        <link rel="apple-touch-icon" href="/assets/gdsc-logo.png" />
         <meta property="og:title" content="DevsHouse" />
         <meta property="og:description" content="A community of developers" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://devshouse.vercel.app" />
+        <meta property="og:url" content="https://www.devshouse.tech" />
+
       </head>
       <body className={inter.className}>
 
         {children}
-        </body>
+      </body>
     </html>
   );
 }
