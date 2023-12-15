@@ -13,35 +13,28 @@ const Theme = () => {
       </span>{" "}
       of possibility are pushed to new horizons.
     </div>,
+    <div key="11" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
+      Forge the future of finance with innovative solutions. Optimize transactions, enhance security, and revolutionize user experience.
+    </div>,
     <div key="2" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
-      Uncover hidden insights in data to shape a smarter tomorrow through
-      <span className="text-yellow-500"> analysis</span> and{" "}
-      <span className="text-yellow-500">modeling.</span>
+      Embrace a greener tomorrow with technology. Build solutions for eco-friendly practices, optimize energy efficiency, and champion environmental conservation.
     </div>,
     <div key="3" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
-      Reinvent <span className="text-blue-500">trust</span> and{" "}
-      <span className="text-blue-500"> transparency </span>with decentralized
-      technology solutions for a more secure future.
+      Supercharge developer productivity. Craft tools and applications that streamline workflows, enhance collaboration, and empower developers to achieve more.
     </div>,
     <div key="4" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
-      Create immersive, user-centered experiences that blendand
-      <span className="text-red-500"> form </span> and
-      <span className="text-red-500"> function.</span>
+      Push the boundaries of hardware. Explore cutting-edge innovations, from IoT devices to embedded systems, and shape the future of tangible technology.
     </div>,
     <div key="5" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
-      Empower change by coding the{" "}
-      <span className="text-green-500"> power </span> of transformation to{" "}
-      <span className="text-green-500"> streamline </span> processes.
+      Champion inclusivity through tech. Address accessibility challenges, promote diverse perspectives, and build a more inclusive tech landscape for all.
     </div>,
     <div key="6" className="h-[160px] md:h-[100px] mx-auto text-center px-4 text-white text-2xl font-normal italic">
-      Fuel<span className="text-purple-600"> creative </span> thinking and
-      <span className="text-purple-600"> collaboration </span>to develop
-      groundbreaking ideas to drive industry evolution.
+      Unleash the power of open innovation. Collaborate on open-source projects, embrace transparency, and foster a vibrant community of tech creators.
     </div>,
   ];
 
   return (
-    <div id='theme' className="bg-[#242425] w-screen py-24">
+    <div id='theme' className="bg-[#242425] w-full py-24">
       <div className="flex justify-center items-center">
         <div className="absolute text-white text-[3em] max-md:text-2xl font-medium">
           Themes
@@ -56,6 +49,7 @@ const Theme = () => {
       <div className="bg-[url('/images/blend(3).png" />
       <div className="bg-[url('/images/blend(4).png" />
       <div className="bg-[url('/images/blend(5).png" />
+      <div className="bg-[url('/images/blend(6).png" />
       <div
         style={{ backgroundImage: `url('/images/blend(${hoverItem}).png')` }}
         className={`flex justify-evenly items-center flex-wrap bg-[url('/images/blend(${hoverItem}).png')] bg-no-repeat h-[490px] bg-cover`}
@@ -70,11 +64,11 @@ const Theme = () => {
           className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px]
           border-2 border-white text-center text-white mx-3 hover:border-black hover:text-black hover:bg-white"
         >
-          <p>Data Science</p>
+          <p>Finance</p>
           <Image
             width={40}
             height={40}
-            alt='Data Science Icon'
+            alt='Finance Icon'
             src="/images/datascience icon.png"
             className="absolute top-[40px] left-[-16px]"
           />
@@ -89,11 +83,11 @@ const Theme = () => {
           className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px]
            border-2 border-white text-center text-white mx-3  hover:border-black hover:text-black hover:bg-white"
         >
-          <p>Blockchain</p>
+          <p>Environmental Sustainability</p>
           <Image
             width={40}
             height={40}
-            alt= 'Blockchain Icon'
+            alt= 'Environmental Sustainability Icon'
             src="/images/blockchain icon.png"
             className="absolute top-[40px] left-[-16px]"
           />
@@ -108,11 +102,11 @@ const Theme = () => {
           className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px]
            border-2 border-white text-center text-white mx-3  hover:border-black hover:text-black hover:bg-white"
         >
-          <p>UX Design</p>
+          <p>Developer Productivity</p>
           <Image
             width={40}
             height={40} 
-            alt= 'UX Design Icon'
+            alt= 'Developer Productivity Icon'
             src="/images/ux design icon.png"
             className="absolute top-[25px] left-[-18px]"
           />
@@ -127,7 +121,7 @@ const Theme = () => {
           className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px]
            border-2 border-white text-center text-white mx-3  hover:border-black hover:text-black hover:bg-white"
         >
-          <p>Development</p>
+          <p>Hardware Track</p>
           <Image
             width={40}
             height={40}
@@ -139,6 +133,25 @@ const Theme = () => {
         <div
           onMouseEnter={() => {
             sethoverItem(5);
+          }}
+          onMouseLeave={() => {
+            sethoverItem(0);
+          }}
+          className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px]
+          hover:border-black hover:text-black hover:bg-white border-2 border-white text-center text-white mx-3"
+        >
+          <p>Diversity and Inclusion</p>
+          <Image
+            width={40}
+            height={40}
+            alt= 'Diversity and Inclusion Icon'
+            src="/images/diversity.png"
+            className="absolute top-[35px] left-[-16px]"
+          />
+        </div>
+        <div
+          onMouseEnter={() => {
+            sethoverItem(6);
           }}
           onMouseLeave={() => {
             sethoverItem(0);
