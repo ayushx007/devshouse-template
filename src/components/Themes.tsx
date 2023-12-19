@@ -109,7 +109,7 @@ const Theme = () => {
             width={40}
             height={40}
             alt="Environmental Sustainability Icon"
-            src="/images/development icon.png"
+            src="/images/blockchain icon.png"
             className="absolute top-[40px] left-[-16px]"
           />
         </div>
@@ -147,7 +147,7 @@ const Theme = () => {
             width={40}
             height={40}
             alt="Development Icon"
-            src="/images/blockchain icon.png"
+            src="/images/development icon.png"
             className="absolute top-[40px] left-[-16px]"
           />
         </div>

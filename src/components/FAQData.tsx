@@ -198,6 +198,12 @@ const FAQData = [
       "All intellectual property rights for the product will belong to the developer(s). To be reviewed by the judges, all of the code must be in the public domain (open source).",
     color: "blue",
   },
+  {
+    key: 11,
+    question: "How many members are allowed in the team?",
+    answer: "A team can have a minimum of 2 and a maximum of 4 members.", 
+    color: "red",
+  }
 ];
 
 export default FAQData;
