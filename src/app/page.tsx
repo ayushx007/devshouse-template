@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import FAQ from "@/components/FAQ";
 import PrevSponsors from "@/components/PrevSponsors";
+import Sponsors from "@/components/Sponsors";
 
 const Home: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const Home: React.FC = () => {
       <Hero />
       <AboutEvent />
       <AboutVit />
+      <Sponsors />
       <AboutGDSC />
       <PrevEvents />
       <PrevSponsors />
