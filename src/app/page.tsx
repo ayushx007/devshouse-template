@@ -21,6 +21,7 @@ const Home: React.FC = () => {
       <Sponsors />
       <AboutGDSC />
       <PrevEvents />
+      <Sponsors />
       <PrevSponsors />
       <Theme />
       <FAQ />
