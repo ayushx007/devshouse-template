@@ -38,7 +38,7 @@ const AboutGDSC = () => {
       </div>
 
       <p className="text-lg md:text-2xl text-slate-400 md:w-3/4 text-justify mt-5 leading-relaxed px-6">
-        GDSC VIT Chennai is a student run community group powered by Google Developers. We are a passionate group of
+        GDG On Campus - VIT Chennai is a student run community group powered by Google Developers. We are a passionate group of
         budding developers who work together to build solutions for local businesses and communities with Google
         technology and promote a healthy developer culture.
       </p>

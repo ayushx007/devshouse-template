@@ -9,22 +9,28 @@ import { RiThreadsFill, RiTwitterXFill } from "react-icons/ri";
 const Footer = () => {
   const contacts = [
     {
-      name: "Aditi Jha",
-      title: "GDSC Lead at VIT Chennai",
-      email: "aditijha913@gmail.com",
-      mobileNo: "+91 93414 05360",
+      name: "Bhavika Maini",
+      title: "Gdg on Campus Organizer at VIT Chenna",
+      email: "fix",
+      mobileNo: "fix",
     },
     {
       name: "Syed Omar Albeez",
-      title: "GDSC Management Lead at VIT Chennai",
+      title: "GDG On Campus Secretary at VIT Chennai",
       email: "syedomar.albeez2022@vitstudent.ac.in",
       mobileNo: "+91 90030 65894",
     },
     {
-      name: "Subham Ghosh",
-      title: "GDSC Outreach Lead at VIT Chennai",
+      name: "Joel Gibi",
+      title: "GDG On Campus Management Lead at VIT Chennai",
       email: "subhamgcon@gmail.com",
-      mobileNo: "+91 98754 75008",
+      mobileNo: "fix",
+    },
+    {
+      name: "Shaan Mukharjee",
+      title: "GDG On Campus Management Lead at VIT Chennai",
+      email: "fix",
+      mobileNo: "fix",
     },
   ];
 
