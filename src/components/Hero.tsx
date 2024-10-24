@@ -50,7 +50,7 @@ export default function Hero() {
             }
             className="font-Inter-800 text-md sm:text-2xl"
           >
-            March 15th - 17th, 2024
+            February 7th - 9th, 2025
           </Link>
         </span>
 

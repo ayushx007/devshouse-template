@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
             className="lg:w-14  md:mr-2 md:w-10 w-10"
           />
           <div className="ml-2 text-gray-600 md:text-lg">
-            <p className="font-medium text-sm lg:text-lg md:text-xs">Google Developer Student Clubs</p>
+            <p className="font-medium text-sm lg:text-lg md:text-xs">Google Developer Group On Campus</p>
             <p className="text-xs">VIT, Chennai</p>
           </div>
         </div>

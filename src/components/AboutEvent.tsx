@@ -3,17 +3,16 @@ import { MdSend } from "react-icons/md";
 import { BiSolidMicrophone } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Image from "next/image";
-import img from "public/images/GDSC-Team.svg";
-
+import gdscImg from "../../public/images/GDSC-Team.svg"; 
 const AboutEvent = () => {
 	return (
 		<div id='about' className="mx-6 sm:mx-10 md:mx-16 my-20">
 			<div className="bg-[#F3F6FC] px-4 sm:px-6 md:px-8 py-10 rounded-lg">
 				<p className="font-bold text-xl sm:text-2xl ">
-					DevsHouse ‘24
+					DevsHouse ‘25
 				</p>
 				<p className="p-2 sm:p-4 text-neutral-500 text-md font-medium">
-					DevsHouse Hackathon by GDSC VIT Chennai, an annual tech innovation
+					DevsHouse Hackathon by GDG On Campus - VIT Chennai, an annual tech innovation
 					event, calls upcoming engineers, designers, and entrepreneurs from
 					across the country to explore new ideas for the future. It offers
 					students the opportunity to create, connect, and showcase their
@@ -65,7 +64,7 @@ const AboutEvent = () => {
 				</div> */}
 
 <div className="flex flex-col items-center pt-12">
-					<Image src={img} width={500}
+					<Image src={gdscImg} width={500}
 						height={500}
 						alt="Picture of  VIT" className="pt-8 bg-transparent" />
 				</div>
