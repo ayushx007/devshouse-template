@@ -16,7 +16,7 @@ const AboutGDSC = () => {
         </div>
 
         <div className="text-center md:text-left md:ml-8">
-          <h1 className="text-3xl md:text-5xl font-Inter-500 text-center mb-4">Google Developer Student Clubs</h1>
+          <h1 className="text-3xl md:text-5xl font-Inter-500 text-center mb-4">Google Developer Groups On Campus</h1>
           <Image
             src="/Pasted Graphic 5.png"
             height={115}

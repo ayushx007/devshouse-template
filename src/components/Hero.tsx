@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import devManiaLogo from "../../public/images/DevsHouse.svg";
 import calendarIcon from "../../public/images/cal-icon.png";
 import locationIcon from "../../public/images/location.png";
+import { HiOutlineSpeakerphone } from "react-icons/hi";
 import HeroImage1 from "../../public/gifs/1.gif";
 import HeroImage2 from "../../public/gifs/2.gif";
 import HeroImage3 from "../../public/gifs/3.gif";
@@ -11,7 +12,6 @@ import HeroImage5 from "../../public/gifs/5.gif";
 import Image from "next/image";
 import Link from "next/link";
 
-import { HiOutlineIdentification, HiOutlineSpeakerphone } from "react-icons/hi";
 
 export default function Hero() {
   useEffect(() => {
@@ -65,13 +65,7 @@ export default function Hero() {
         </span>
       </div>
       <div className="flex flex-col md:flex-row gap-4">
-        <div
-          className="apply-button"
-          data-hackathon-slug="devshouse-1"
-          data-button-theme="light"
-          style={{ height: "44px", width: "312px" }}
-        ></div>
-        <span className="flex items-center gap-2 bg-blue-500 rounded-md font-bold text-sm md:text-xl px-2 md:px-4 py-2 md:py-3 text-white hover:scale-110 transition-transform ease-out z-50">
+        <span className="flex items-center justify-center gap-2 bg-blue-500 rounded-md font-bold text-sm md:text-xl px-2 md:px-4 py-2 md:py-3 text-white hover:scale-110 transition-transform ease-out z-50">
           <HiOutlineSpeakerphone />
           <Link target="_blank" href="https://discord.gg/UFfPjTtzh7">
             Join our Community

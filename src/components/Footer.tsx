@@ -10,9 +10,9 @@ const Footer = () => {
   const contacts = [
     {
       name: "Bhavika Maini",
-      title: "Gdg on Campus Organizer at VIT Chenna",
-      email: "fix",
-      mobileNo: "fix",
+      title: "GDG on Campus Organizer at VIT Chennai",
+      email: "bhavika.maini2022@vitstudent.ac.in",
+      mobileNo: "+91 91161 00889",
     },
     {
       name: "Syed Omar Albeez",
@@ -23,14 +23,14 @@ const Footer = () => {
     {
       name: "Joel Gibi",
       title: "GDG On Campus Management Lead at VIT Chennai",
-      email: "subhamgcon@gmail.com",
-      mobileNo: "fix",
+      email: "joel.gibi2022@vitstudent.ac.in",
+      mobileNo: "+91 89431 36813",
     },
     {
       name: "Shaan Mukharjee",
       title: "GDG On Campus Management Lead at VIT Chennai",
-      email: "fix",
-      mobileNo: "fix",
+      email: "shaan.mukherjee2023@vitstudent.ac.in",
+      mobileNo: "+91 93392 44224",
     },
   ];
 
@@ -65,13 +65,13 @@ const Footer = () => {
           </div>
           <div className="w-full px-8 ">
             <div className="grid grid-rows-2 grid-cols-3 md:flex md:grid-cols-6  justify-center md:justify-start gap-14 pt-8">
-              <Link href="https://www.instagram.com/gdscvitchennai/" target="_blank" rel="noreferrer">
+              <Link href="https://www.instagram.com/gdg.vitc/" target="_blank" rel="noreferrer">
                 <AiOutlineInstagram />
               </Link>
               <Link href="https://www.linkedin.com/company/dsc-vit-chennai/" target="_blank" rel="noreferrer">
                 <AiOutlineLinkedin />
               </Link>
-              <Link href="mailto:gdsc.vitc@gmail.com" target="_blank" rel="noreferrer">
+              <Link href="mailto:devshouse.tech@gmail.com" target="_blank" rel="noreferrer">
                 <AiOutlineMail />
               </Link>
               <Link href="https://discord.gg/UFfPjTtzh7" target="_blank" rel="noreferrer">

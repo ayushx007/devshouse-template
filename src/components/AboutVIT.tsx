@@ -1,5 +1,5 @@
 import Image from "next/image";
-import img from "../../public/images/GDSC-Team.svg";
+import img from "../../public/images/col_img.png";
 
 
 const AboutVit = () => {
