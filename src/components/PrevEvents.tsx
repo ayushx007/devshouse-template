@@ -125,7 +125,7 @@ const PrevEvents: FC<PrevEventsProps> = ({ }) => {
                     </div>
                     <div className='flex justify-center items-center w-64'>
                         <Cube link="https://www.instagram.com/p/CtPC-6ISn9f/?igshid=ODhhZWM5NmIwOQ==" size={100} image={'../../assets/prev7.jpeg'} bgColor='#4285F4' borderColor='#81B0FF' x={-800} y={-825} z={-130} />
-                        <Cube link="https://www.instagram.com/p/CtbGXmkr9da/?igshid=ODhhZWM5NmIwOQ==" size={100} image={'../../assets/prev6.jpeg'} style={{ marginTop: '80px', marginLeft: '-65px' }} bgColor='#4285F4' borderColor='#81B0FF' x={-800} y={-825} z={-130} />
+                        <Cube link="https://www.instagram.com/devshouse.tech/" size={100} image={'../../assets/prev6.svg'} style={{ marginTop: '80px', marginLeft: '-65px' }} bgColor='#4285F4' borderColor='#81B0FF' x={-800} y={-825} z={-130} />
                     </div>
                 </div>
             </div>

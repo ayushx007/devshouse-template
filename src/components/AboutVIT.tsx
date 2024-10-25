@@ -15,7 +15,7 @@ const AboutVit = () => {
 				</p>
 
 				<div className="flex flex-col items-center pt-12">
-					<p className="font-bold text-[1.689rem] border-2 max-w-max rounded-[1.875rem] kl pl-8 pr-8 pt-2 pb-2 border-black ">A Place To Learn,A Chance To Grow</p>
+					<p className="font-bold text-[1.689rem] border-2 max-w-max rounded-[1.875rem] kl pl-8 pr-8 pt-2 pb-2 border-black ">A Place To Learn, A Chance To Grow.</p>
 					<Image src={img} width={500}
 						height={500}
 						alt="Picture of  VIT" className="pt-8 bg-transparent" />

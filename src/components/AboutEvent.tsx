@@ -3,7 +3,7 @@ import { MdSend } from "react-icons/md";
 import { BiSolidMicrophone } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Image from "next/image";
-import gdscImg from "../../public/images/GDSC-Team.svg"; 
+import devsHouseImage from "../../public/devshouse_banner-cropped.png"; 
 const AboutEvent = () => {
 	return (
 		<div id='about' className="mx-6 sm:mx-10 md:mx-16 my-20">
@@ -63,8 +63,8 @@ const AboutEvent = () => {
 					</div>
 				</div> */}
 
-<div className="flex flex-col items-center pt-12">
-					<Image src={gdscImg} width={500}
+<div className="flex flex-col items-center pt-4">
+					<Image src={devsHouseImage} width={500}
 						height={500}
 						alt="Picture of  VIT" className="pt-8 bg-transparent" />
 				</div>
