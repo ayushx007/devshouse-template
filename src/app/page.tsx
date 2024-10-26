@@ -18,7 +18,6 @@ const Home: React.FC = () => {
       <Hero />
       <AboutEvent />
       <AboutVit />
-      <Sponsors />
       <AboutGDSC />
       <PrevEvents />
       <Sponsors />
