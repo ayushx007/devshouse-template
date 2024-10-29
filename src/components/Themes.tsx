@@ -18,43 +18,37 @@ const Theme = () => {
       key="11"
       className="h-auto md:h-[100px] mx-auto text-center px-4 text-white text-lg md:text-2xl font-normal italic"
     >
-      Forge the future of finance with innovative solutions. Optimize transactions, enhance security, and revolutionize
-      user experience.
+      Build secure, transparent apps with blockchain, tackling data ownership and trust in decentralized systems.
     </div>,
     <div
       key="2"
       className="h-auto md:h-[100px] mx-auto text-center px-4 text-white text-lg md:text-2xl font-normal italic"
     >
-      Embrace a greener tomorrow with technology. Build solutions for eco-friendly practices, optimize energy
-      efficiency, and champion environmental conservation.
+      Drive innovation in digital finance with secure, user-focused solutions for seamless transactions and financial empowerment. Empower businesses with cutting-edge tools.
     </div>,
     <div
       key="3"
       className="h-auto md:h-[100px] mx-auto text-center px-4 text-white text-lg md:text-2xl font-normal italic"
     >
-      Supercharge developer productivity. Craft tools and applications that streamline workflows, enhance collaboration,
-      and empower developers to achieve more.
+      Create tech solutions that promote eco-friendly practices, energy efficiency, and environmental conservation.
     </div>,
     <div
       key="4"
       className="h-auto md:h-[100px] mx-auto text-center px-4 text-white text-lg md:text-2xl font-normal italic"
     >
-      Push the boundaries of hardware. Explore cutting-edge innovations, from IoT devices to embedded systems, and shape
-      the future of tangible technology.
+      From virtual learning environments to gamified experiences, Create immersive AR and VR experiences that redefine digital interaction, from learning to entertainment.
     </div>,
     <div
       key="5"
       className="h-auto md:h-[100px] mx-auto text-center px-4 text-white text-lg md:text-2xl font-normal italic"
     >
-      Champion inclusivity through tech. Address accessibility challenges, promote diverse perspectives, and build a
-      more inclusive tech landscape for all.
+      Explore cutting-edge hardware innovations,intelligent devices from IoT devices to embedded systems, pushing the boundaries of technology and automation.
     </div>,
     <div
       key="6"
       className="h-auto md:h-[100px] mx-auto text-center px-4 text-white text-lg md:text-2xl font-normal italic"
     >
-      Unleash the power of open innovation. Collaborate on open-source projects, embrace transparency, and foster a
-      vibrant community of tech creators.
+      Collaborate on diverse real world challenged and bring any innovative idea to life in an open and flexible track.
     </div>,
   ];
 
@@ -85,7 +79,7 @@ const Theme = () => {
           className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px]
           border-2 border-white text-center text-white mx-3 hover:border-black hover:text-black hover:bg-white"
         >
-          <p>Finance</p>
+          <p>Blockchain & Decentralized Applications</p>
           <Image
             width={40}
             height={40}
@@ -104,7 +98,7 @@ const Theme = () => {
           className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px]
            border-2 border-white text-center text-white mx-3  hover:border-black hover:text-black hover:bg-white"
         >
-          <p>Environmental Sustainability</p>
+          <p>FinTech</p>
           <Image
             width={40}
             height={40}
@@ -123,7 +117,7 @@ const Theme = () => {
           className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px]
            border-2 border-white text-center text-white mx-3  hover:border-black hover:text-black hover:bg-white"
         >
-          <p>Developer Productivity</p>
+          <p>Environmental Sustainability</p>
           <Image
             width={40}
             height={40}
@@ -142,7 +136,7 @@ const Theme = () => {
           className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px]
            border-2 border-white text-center text-white mx-3  hover:border-black hover:text-black hover:bg-white"
         >
-          <p>Hardware Track</p>
+          <p>AR & VR</p>
           <Image
             width={40}
             height={40}
@@ -161,7 +155,7 @@ const Theme = () => {
           className="relative flex items-center justify-center w-[199px] h-[67px] bg-neutral-800 rounded-[10px]
           hover:border-black hover:text-black hover:bg-white border-2 border-white text-center text-white mx-3"
         >
-          <p>Diversity and Inclusion</p>
+          <p>IoT & Smart Devices</p>
           <Image
             width={40}
             height={40}

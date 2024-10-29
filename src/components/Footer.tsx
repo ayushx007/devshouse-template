@@ -77,12 +77,10 @@ const Footer = () => {
               <Link href="https://discord.gg/UFfPjTtzh7" target="_blank" rel="noreferrer">
                 <BsDiscord />
               </Link>
-              <Link href="https://twitter.com/gdscvitc" target="_blank" rel="noreferrer">
+              <Link href="https://x.com/gdg_vitc" target="_blank" rel="noreferrer">
                 <RiTwitterXFill />
               </Link>
-              <Link href="https://www.threads.net/@gdscvitchennai" target="_blank" rel="noreferrer">
-                <RiThreadsFill />
-              </Link>
+              
             </div>
           </div>
         </div>
