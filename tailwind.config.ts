@@ -13,6 +13,7 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      scrollBehavior: ['smooth'],
       colors: {
         'bg-black':'#242425',
         'heading-grey':'#E4E4E4'

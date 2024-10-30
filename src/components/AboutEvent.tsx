@@ -6,7 +6,7 @@ import Image from "next/image";
 import devsHouseImage from "../../public/devshouse_banner-cropped.png"; 
 const AboutEvent = () => {
 	return (
-		<div id='about' className="mx-6 sm:mx-10 md:mx-16 my-20">
+		<div id='about' className="mx-6 sm:mx-10 md:mx-16 my-20 scroll-mt-16">
 			<div className="bg-[#F3F6FC] px-4 sm:px-6 md:px-8 py-10 rounded-lg">
 				<p className="font-bold text-xl sm:text-2xl ">
 					DevsHouse ‘25
@@ -64,9 +64,9 @@ const AboutEvent = () => {
 				</div> */}
 
 <div className="flex flex-col items-center pt-4">
-					<Image src={devsHouseImage} width={500}
-						height={500}
-						alt="Picture of  VIT" className="pt-8 bg-transparent" />
+					<Image src={devsHouseImage} width={350}
+						height={350}
+						alt="DevsHouse Poster" className="pt-8 bg-transparent" />
 				</div>
 				
 			</div>
