@@ -37,11 +37,11 @@ export default function Hero() {
         <span className="flex flex-row items-center gap-2 underline">
           <Link
             href={
-              "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250207T013000Z%2F20250209T133000Z&details=&location=VIT%20Chennai&text=DevsHouse"
+              "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250214T013000Z%2F20250216T133000Z&details=&location=VIT%20Chennai&text=DevsHouse25'"
             }
             className="font-Inter-800 text-md sm:text-2xl"
           >
-            February 7th - 9th, 2025
+            February 14th - 16th, 2025
           </Link>
         </span>
 
