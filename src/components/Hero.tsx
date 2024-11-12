@@ -37,7 +37,7 @@ export default function Hero() {
         <span className="flex flex-row items-center gap-2 underline">
           <Link
             href={
-              "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250214T013000Z%2F20250216T133000Z&details=&location=VIT%20Chennai&text=DevsHouse25'"
+              "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250214T013000Z%2F20250216T133000Z&details=&location=VIT%20Chennai&text=DevsHouse '25"
             }
             className="font-Inter-800 text-md sm:text-2xl"
           >
