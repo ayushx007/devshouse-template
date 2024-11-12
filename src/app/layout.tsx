@@ -4,10 +4,25 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "DevsHouse",
-  description: "Code. Connect. Create.",
+export const metadata = {
+  metadataBase: new URL('https://www.devshouse.in'),
+  title: 'DevsHouse',
+  description: 'Code. Connect. Create.',
+  openGraph: {
+    title: 'DevsHouse',
+    description: 'Code. Connect. Create.',
+    url: 'https://www.devshouse.in',
+    images: [
+      {
+        url: '/opengraph-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'DevsHouse | A community of developers',
+      },
+    ],
+  },
 };
+
 
 export default function RootLayout({
   children,
