@@ -19,29 +19,25 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#000000" />
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        {/* SEO Metadata */}
-        <title>{String(metadata.title) ?? "Default Title"}</title>
-        <meta name="description" content={metadata.description ?? "Default description"} />
-
-        {/* Open Graph Metadata */}
+        <link rel="apple-touch-icon" href="/assets/gdsc-logo.png" />
         <meta property="og:title" content="DevsHouse" />
         <meta property="og:description" content="Code. Connect. Create." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.devshouse.in" />
-        <meta property="og:image" content="/devshouse_banner-cropped.png" />
-        <meta property="og:image:width" content="826" />
-        <meta property="og:image:height" content="826" />
-        <meta property="og:image:alt" content="DevsHouse Logo Banner" />
+        <meta property="og:image" content="<generated>" />
+        <meta property="og:image:type" content="<generated>" />
+        <meta property="og:image:width" content="<generated>" />
+        <meta property="og:image:height" content="<generated>" />
+        <meta name="twitter:image" content="<generated>" />
+        <meta name="twitter:image:type" content="<generated>" />
+        <meta name="twitter:image:width" content="<generated>" />
+        <meta name="twitter:image:height" content="<generated>" />
 
-        {/* Twitter Metadata */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="DevsHouse" />
-        <meta name="twitter:description" content="Code. Connect. Create." />
-        <meta name="twitter:image" content="/devshouse_banner-cropped.png" />
       </head>
       <body className={inter.className}>
+
         {children}
       </body>
     </html>

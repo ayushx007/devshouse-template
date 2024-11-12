@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "DevsHouse | Hackathon",
     short_name: "DevsHouse",
-    description: "A community of developers",
+    description: "Code. Connect. Create.",
     start_url: "/",
     display: 'standalone',
     background_color: '#fff',
