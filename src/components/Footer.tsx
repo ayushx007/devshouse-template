@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
           <div className="w-full px-8 ">
             <div className="grid grid-rows-2 grid-cols-3 md:flex md:grid-cols-6  justify-center md:justify-start gap-14 pt-8">
-              <Link href="https://www.instagram.com/gdg.vitc/" target="_blank" rel="noreferrer">
+              <Link href="http://instagram.com/devshouse.in" target="_blank" rel="noreferrer">
                 <AiOutlineInstagram />
               </Link>
               <Link href="https://www.linkedin.com/company/dsc-vit-chennai/" target="_blank" rel="noreferrer">
@@ -77,7 +77,7 @@ const Footer = () => {
               <Link href="https://discord.gg/UFfPjTtzh7" target="_blank" rel="noreferrer">
                 <BsDiscord />
               </Link>
-              <Link href="https://x.com/gdg_vitc" target="_blank" rel="noreferrer">
+              <Link href="http://x.com/devshouse_in" target="_blank" rel="noreferrer">
                 <RiTwitterXFill />
               </Link>
               
