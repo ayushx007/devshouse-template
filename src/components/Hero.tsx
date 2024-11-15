@@ -13,8 +13,18 @@ import HeroImage5 from "../../public/gifs/5.gif";
 import Image from "next/image";
 import Link from "next/link";
 
-
 export default function Hero() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
   return (
     <div className="flex mt-10 h-[90vh] flex-col items-center justify-center gap-4 bg-white bg-cover bg-no-repeat bg-center">
       <div className="absolute -right-52 rotate-90 -top-36 hidden md:block">
@@ -55,13 +65,13 @@ export default function Hero() {
           </Link>
         </span>
       </div>
-      <div className="flex flex-col md:flex-row gap-4">
-        <span className="flex items-center gap-2 bg-[#EA4335] rounded-md font-bold text-sm md:text-xl px-2 md:px-4 py-2 md:py-3 text-white hover:scale-110 transition-transform ease-out z-50">
-          <MdEventAvailable />
-          <Link target="_blank" href="https://forms.gle/jLrq2g8ViRxJ7P6s7">
-            Pre-Register Now!
-          </Link>
-        </span>
+      <div className="flex flex-col md:flex-row gap-4 items-center">
+        <div 
+          className="apply-button" 
+          data-hackathon-slug="devshouse25" 
+          data-button-theme="light"
+          style={{ height: '44px', width: '312px' }}
+        ></div>
         <span className="flex items-center gap-2 bg-blue-500 rounded-md font-bold text-sm md:text-xl px-2 md:px-4 py-2 md:py-3 text-white hover:scale-110 transition-transform ease-out z-50">
           <HiOutlineSpeakerphone />
           <Link target="_blank" href="https://discord.gg/UFfPjTtzh7">

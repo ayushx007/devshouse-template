@@ -43,12 +43,13 @@ import sybgen from "../../public/images/SponsorIcons/sybgen.png";
 import verbwire from "../../public/images/SponsorIcons/verbwire.png";
 import wolfgram from "../../public/images/SponsorIcons/wolfram.png";
 import zsecurity from "../../public/images/SponsorIcons/ZSecurity.png";
+import ethindia from "../../public/images/SponsorIcons/ethindia.png";
 
 export default function PrevSponsors() {
   const images = [
     devfolio, dubeat, fossunited, fossip, gdglogo, zeeve, aops, axure, beeceptor, berger,
     choice, cybrance, echo3d, esales, github, iblogotransparent, integra, NB, netweb, polygon,
-    quillaudits, redbull, replit, skynyx, solana, superteam, sybgen, verbwire, wolfgram, zsecurity
+    quillaudits, redbull, replit, skynyx, solana, superteam, sybgen, verbwire, wolfgram, zsecurity, ethindia
   ];
 
   const { width } = useWindowDimensions();
