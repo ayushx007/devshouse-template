@@ -67,7 +67,7 @@ export default function Hero() {
       </div>
       <div className="flex flex-col md:flex-row gap-4 items-center">
         <div 
-          className="apply-button" 
+          className="apply-button z-50" 
           data-hackathon-slug="devshouse25" 
           data-button-theme="light"
           style={{ height: '44px', width: '312px' }}
