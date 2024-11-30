@@ -66,10 +66,9 @@ export default function Hero() {
         </span>
       </div>
       <div className="flex flex-col md:flex-row gap-4 items-center relative">
-        {/* Applying z-index to the container div */}
         <div
-          className="apply-button-wrapper z-50"
-          style={{ position: 'relative', zIndex: 50 }} // Adding position: relative to ensure z-index works
+          className="apply-button-wrapper z-50 bg-blue-500 rounded-md font-bold text-sm md:text-xl px-2 md:px-4 py-2 md:py-3 text-white hover:scale-110 transition-transform ease-out"
+          style={{ position: 'relative', zIndex: 50 }} 
         >
           <div
             className="apply-button"
@@ -79,7 +78,6 @@ export default function Hero() {
           ></div>
         </div>
 
-        {/* Join our Community button */}
         <span className="flex items-center gap-2 bg-blue-500 rounded-md font-bold text-sm md:text-xl px-2 md:px-4 py-2 md:py-3 text-white hover:scale-110 transition-transform ease-out z-50">
           <HiOutlineSpeakerphone />
           <Link target="_blank" href="https://discord.gg/UFfPjTtzh7">
