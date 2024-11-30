@@ -78,7 +78,7 @@ export default function Hero() {
           ></div>
         </div>
 
-        <span className="flex h-[44px] w-[320px] justify-center items-center gap-2 bg-blue-500 rounded-md font-semibold text-sm md:text-xl text-white hover:scale-110 transition-transform ease-out z-50">
+        <span className="flex h-[44px] w-[320px] justify-center items-center gap-2 bg-blue-500 rounded-md font-semibold text-xl text-white hover:scale-110 transition-transform ease-out z-50">
           <HiOutlineSpeakerphone />
           <Link target="_blank" href="https://discord.gg/UFfPjTtzh7">
             Join our Community
