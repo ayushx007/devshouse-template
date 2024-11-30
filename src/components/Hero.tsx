@@ -67,10 +67,10 @@ export default function Hero() {
       </div>
       <div className="flex flex-col md:flex-row gap-4 items-center">
         <div 
-          className="apply-button z-50 flex items-center gap-2 bg-blue-500 rounded-md font-bold text-sm md:text-xl px-2 md:px-4 py-2 md:py-3 text-white hover:scale-110 transition-transform ease-out" 
+          className="apply-button z-50" 
           data-hackathon-slug="devshouse25" 
           data-button-theme="light"
-          style={{ height: '44px', width: '312px' }}
+          style={{ height: '44px', width: '248px' }}
         ></div>
         <span className="flex items-center gap-2 bg-blue-500 rounded-md font-bold text-sm md:text-xl px-2 md:px-4 py-2 md:py-3 text-white hover:scale-110 transition-transform ease-out z-50">
           <HiOutlineSpeakerphone />
