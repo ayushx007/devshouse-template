@@ -51,7 +51,7 @@ export default function Hero() {
             }
             className="font-Inter-800 text-md sm:text-2xl"
           >
-            February 14th - 16th, 2025
+            April 4th - 6th, 2025
           </Link>
         </span>
 
